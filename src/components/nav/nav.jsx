@@ -32,10 +32,18 @@ const Nav = () => {
       >
         <BiBook />
       </a>
-      <a href="#portfolio">
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
         <BsBriefcase />
       </a>
-      <a href="#contact">
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
         <BiMessageRoundedCheck />
       </a>
     </nav>
