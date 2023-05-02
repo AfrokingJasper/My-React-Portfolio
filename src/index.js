@@ -2,7 +2,7 @@ import React from "react";
 // import ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import "./Index.css";
+import "./index.css";
 
 // const
 const container = document.querySelector("#root");
