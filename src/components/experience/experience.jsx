@@ -13,34 +13,46 @@ const Experience = (props) => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <GoVerified />
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4>CSS</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4>JavaScript</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4>TailwindCss</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>TailwindCss</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4>Git/Github</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>Git/Github</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4>React</h4>
-              <small className="text-light">Intermediate</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>React</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
@@ -48,34 +60,46 @@ const Experience = (props) => {
           <h3>Soft skils</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <GoVerified />
-              <h4> Ability to work as a team</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4> Team work</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4> Excellent Problem solving skills</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>Problem solving</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4> Attention to detail</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4> Attention to detail</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4> Precision and accuracy</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4> Precision</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4> Excellent communication skills</h4>
-              <small className="text-light">Experienced</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>Communication skills</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
-              <GoVerified />
-              <h4> Ability to thrive under pressure</h4>
-              <small className="text-light">Intermediate</small>
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>Thriving under pressure</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
