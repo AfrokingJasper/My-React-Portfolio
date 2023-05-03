@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assest/Bankist-2.PNG";
-import IMG2 from "../../assest/Bankist-1.PNG";
-import IMG3 from "../../assest/forkify-2.PNG";
+import IMG1 from "../../assest/Bankist-2-picture.PNG";
+import IMG2 from "../../assest/Bankist-1-picture.PNG";
+import IMG3 from "../../assest/forkify-picture.PNG";
 // import IMG4 from "../../assest/DSC_0199.jpg";
 
 const data = [
@@ -12,13 +12,17 @@ const data = [
     title: "Bankist website",
     github: "https://github.com/AfrokingJasper?tab=repositories",
     demo: "https://bankist-website-eta.vercel.app/",
+    description:
+      "Smooth and Responsive Website. Fits perfrectly in all kinds of Device and accessible on all browsers. Everything you need in a modern bank and more.",
   },
   {
     id: 2,
     image: IMG2,
     title: "Bankist Web Application",
     github: "https://github.com/AfrokingJasper?tab=repositories",
-    demo: "https://github.com/AfrokingJasper?tab=repositories",
+    demo: "https://bankist-web-app.vercel.app/",
+    description:
+      "Modern banking application. Allows transfer transaction between different currencies and formats the amount accordingly.",
   },
   {
     id: 3,
@@ -26,6 +30,8 @@ const data = [
     title: "Forkify-Api Website",
     github: "https://github.com/AfrokingJasper?tab=repositories",
     demo: "https://github.com/AfrokingJasper?tab=repositories",
+    description:
+      "Modern Food recipe website. Allows users search for diffenrent food, fetches the data from an API and renders the list of similar searches along with recipe used.",
   },
 ];
 
@@ -35,19 +41,20 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, github, demo, description }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img className="imgs" src={image} alt={title} />
               </div>
               <h3>{title}</h3>
+              <div className="description">{description}</div>
               <div className="porfolio__item-cta">
                 <a href={github} target="_blank" className="btn">
                   GitHub
                 </a>
                 <a href={demo} target="_blank" className="btn btn-primary">
-                  GitHub
+                  View Site
                 </a>
               </div>
             </article>

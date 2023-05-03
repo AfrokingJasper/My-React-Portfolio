@@ -94,13 +94,6 @@ const Experience = (props) => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="experience__details">
-              <GoVerified className="experience__details-icons" />
-              <div>
-                <h4>Thriving under pressure</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
           </div>
         </div>
       </div>

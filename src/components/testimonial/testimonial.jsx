@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonial.css";
-import AVTR1 from "../../assest/avatar1.jpg";
-import AVTR2 from "../../assest/avatar2.jpg";
-import AVTR3 from "../../assest/avatar3.jpg";
-import AVTR4 from "../../assest/avatar4.jpg";
+import AVTR1 from "../../assest/profiles.avif";
+import AVTR2 from "../../assest/profiles.avif";
+import AVTR3 from "../../assest/profiles.avif";
+// import AVTR4 from "../../assest/profiles.avif";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -17,28 +17,28 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: AVTR1,
-    name: "Tina Snow",
+    name: "Leon",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit debitis, iste libero voluptatibus facere nulla earum minima necessitatibus, tempore odit dolores alias id in! Autem nam nesciunt optio maxime molestiae!",
+      "Amazing work. The UX is very nice and clean, and i love how it easily fits into different sceen without disrupting the UI",
   },
   {
     avatar: AVTR2,
-    name: "Tina Snow",
+    name: "Jenifer",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit debitis, iste libero voluptatibus facere nulla earum minima necessitatibus, tempore odit dolores alias id in! Autem nam nesciunt optio maxime molestiae!",
+      "This web app is really nice, I wasnt expecting something this complex and i'm wondering how you were able to implement all these complex algorithms in the frontend. Good job!",
   },
   {
     avatar: AVTR3,
-    name: "Tina Snow",
+    name: "Wisdom",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit debitis, iste libero voluptatibus facere nulla earum minima necessitatibus, tempore odit dolores alias id in! Autem nam nesciunt optio maxime molestiae!",
+      "You really did a good job on the website. Its so easy for people to transfer money to a diffrent users in different currencies and your algorithm converts it automatically without having to create a new account.",
   },
-  {
-    avatar: AVTR4,
-    name: "Tina Snow",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit debitis, iste libero voluptatibus facere nulla earum minima necessitatibus, tempore odit dolores alias id in! Autem nam nesciunt optio maxime molestiae!",
-  },
+  // {
+  //   avatar: AVTR4,
+  //   name: "Tina Snow",
+  //   review:
+  //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit debitis, iste libero voluptatibus facere nulla earum minima necessitatibus, tempore odit dolores alias id in! Autem nam nesciunt optio maxime molestiae!",
+  // },
 ];
 
 const Testimonial = (props) => {

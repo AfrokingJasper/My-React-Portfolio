@@ -1,7 +1,9 @@
-.services__container {
-  display: grid;
+.container.services__container {
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 3rem; */
+  width: 40%;
+  padding-bottom: 4rem;
 }
 
 .service {
@@ -11,6 +13,7 @@
   height: fit-content;
   transition: var(--transition);
   height: auto;
+  user-select: none;
 }
 
 .service:hover {
@@ -53,9 +56,10 @@
 
 /* media queries (medium devices) */
 @media screen and (max-width: 1024px) {
-  .services__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+  .container.services__container {
+    width: 60%;
+    /* grid-template-columns: 1fr 1fr;
+    gap: 2rem; */
   }
 
   .service {
@@ -65,8 +69,9 @@
 /* media queries (small devices) */
 
 @media screen and (max-width: 600px) {
-  .services__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+  .container.services__container {
+    width: var(--container-width-sm);
+    /* grid-template-columns: 1fr;
+    gap: 2rem; */
   }
 }

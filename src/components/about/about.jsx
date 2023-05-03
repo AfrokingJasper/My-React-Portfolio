@@ -14,7 +14,7 @@ function About(props) {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="fortune" />
+            <img src={ME} alt="fortune" className="about__me" />
           </div>
         </div>
         <div className="about__content">
@@ -37,11 +37,14 @@ function About(props) {
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-            eaque recusandae voluptatibus maiores, magni voluptates quas hic nam
-            officia cumque. Lorem ipsum, dolor sit amet consectetur adipisicing
-            elit. Corporis accusamus ex natus mollitia nisi, eius ea praesentium
-            ad sit? Temporibus!
+            I am a highly motivated Frontend Developer with a strong foundation
+            in HTML, CSS, JavaScript and Frameworks like React and Tailwind CSS
+            and with proven ability to develop responsive and user friendly web
+            applications. I’m a quick learner with a passion for staying
+            up-to-date with the latest web technologies and trends. I am a
+            highly organised, dedicated, energetic and ambitious individual who
+            always strives to achieve the highest standard possible at any given
+            task.
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk

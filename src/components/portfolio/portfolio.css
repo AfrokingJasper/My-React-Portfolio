@@ -21,6 +21,10 @@
   margin: 1.2rem 0 2rem;
 }
 
+.description {
+  font-size: 0.9rem;
+}
+
 /* .imgs {
   height: 15rem;
   object-fit: cover;
@@ -36,6 +40,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  margin-top: auto;
 }
 
 /* media queries (medium devices) */
