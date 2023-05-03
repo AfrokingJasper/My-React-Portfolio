@@ -21,10 +21,10 @@ function Contact(props) {
       )
       .then(
         (result) => {
-          alert(result.text);
+          alert("message sucesfully sent");
         },
         (error) => {
-          alert(error.text);
+          alert("An error occurred! Please try again");
         }
       );
     e.target.reset();
