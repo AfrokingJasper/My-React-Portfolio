@@ -1,11 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assest/image1.jpg";
-import IMG2 from "../../assest/DSC_0195.jpg";
-import IMG3 from "../../assest/grtetg.jpg";
-import IMG4 from "../../assest/DSC_0199.jpg";
-import IMG5 from "../../assest/dffee.jpg";
-import IMG6 from "../../assest/hrer.jpg";
+import IMG1 from "../../assest/Bankist-2.PNG";
+import IMG2 from "../../assest/Bankist-1.PNG";
+import IMG3 from "../../assest/forkify-2.PNG";
+// import IMG4 from "../../assest/DSC_0199.jpg";
 
 const data = [
   {
@@ -13,40 +11,19 @@ const data = [
     image: IMG1,
     title: "Bankist website",
     github: "https://github.com/AfrokingJasper?tab=repositories",
-    demo: "https://github.com/AfrokingJasper?tab=repositories",
+    demo: "https://bankist-website-eta.vercel.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Bankist website",
+    title: "Bankist Web Application",
     github: "https://github.com/AfrokingJasper?tab=repositories",
     demo: "https://github.com/AfrokingJasper?tab=repositories",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Bankist website",
-    github: "https://github.com/AfrokingJasper?tab=repositories",
-    demo: "https://github.com/AfrokingJasper?tab=repositories",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Bankist website",
-    github: "https://github.com/AfrokingJasper?tab=repositories",
-    demo: "https://github.com/AfrokingJasper?tab=repositories",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Bankist website",
-    github: "https://github.com/AfrokingJasper?tab=repositories",
-    demo: "https://github.com/AfrokingJasper?tab=repositories",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Bankist website",
+    title: "Forkify-Api Website",
     github: "https://github.com/AfrokingJasper?tab=repositories",
     demo: "https://github.com/AfrokingJasper?tab=repositories",
   },

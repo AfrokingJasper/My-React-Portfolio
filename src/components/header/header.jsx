@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./cta";
-import pg from "../../assest/dffee_1.jpg";
+import pg from "../../assest/profile-image.jpg";
 import HeaderSocials from "./headerSocials";
 
 const Header = (props) => {
