@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "RecipeHive Api Website",
+    title: "RecipeHive Api Web App",
     github: "https://github.com/AfrokingJasper/forkify-web-app",
     site: "https://fortune-forkify-recipe.netlify.app/",
     description:
