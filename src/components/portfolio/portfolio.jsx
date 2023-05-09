@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assest/Bankist-2-picture.PNG";
 import IMG2 from "../../assest/Bankist-1-picture.PNG";
 import IMG3 from "../../assest/forkify-picture.PNG";
-// import IMG4 from "../../assest/DSC_0199.jpg";
+import IMG4 from "../../assest/expense-tracker-image.PNG";
 
 const data = [
   {
@@ -32,6 +32,15 @@ const data = [
     site: "https://fortune-forkify-recipe.netlify.app/",
     description:
       "Modern Food recipe website. Allows users search for diffenrent food, fetches the data from an API and renders the list of similar searches along with recipe used.",
+  },
+  {
+    id: 3,
+    image: IMG4,
+    title: "Expense Tracker",
+    github: "https://github.com/AfrokingJasper/React-Expense-tracker",
+    site: "https://fortunes-expensetracker.netlify.app/",
+    description:
+      "Personal Expense Tracker. Keeps a record of all your personal expenses on monthly basis. Expenses can be filtered by the year it was incured and all expenses are displayed on a chart",
   },
 ];
 
