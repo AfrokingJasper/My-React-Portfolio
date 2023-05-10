@@ -22,7 +22,7 @@ const data = [
     github: "https://github.com/AfrokingJasper/Bankist-web-app",
     site: "https://bankist-web-app.vercel.app/",
     description:
-      "Modern banking application. Allows transfer transaction between different currencies and formats the amount accordingly.",
+      "Modern banking application. Allows users to perform transaction between different currencies and formats the amount accordingly.",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     github: "https://github.com/AfrokingJasper/forkify-web-app",
     site: "https://fortune-forkify-recipe.netlify.app/",
     description:
-      "Modern Food recipe website. Allows users search for diffenrent food, fetches the data from an API and renders the list of similar searches along with recipe used.",
+      "Modern Food recipe website. Allows users to search for diffenrent food, fetches the data from an API and renders the list of similar searches along with recipe used.",
   },
   {
     id: 3,
