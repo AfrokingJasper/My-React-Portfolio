@@ -4,6 +4,7 @@ import IMG1 from "../../assest/Bankist-2-picture.PNG";
 import IMG2 from "../../assest/Bankist-1-picture.PNG";
 import IMG3 from "../../assest/forkify-picture.PNG";
 import IMG4 from "../../assest/expense-tracker-image.PNG";
+import IMG5 from "../../assest/voice-expense-tracker.PNG";
 
 const data = [
   {
@@ -34,13 +35,22 @@ const data = [
       "Modern Food recipe website. Allows users to search for diffenrent food, fetches the data from an API and renders the list of similar searches along with recipe used.",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG4,
     title: "Expense Tracker",
     github: "https://github.com/AfrokingJasper/React-Expense-tracker",
     site: "https://fortunes-expensetracker.netlify.app/",
     description:
       "Personal Expense Tracker. Keeps a record of all your personal expenses on monthly basis. Expenses can be filtered by the year it was incured and all expenses are displayed on a chart",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Voice Budget Tracker",
+    github: "https://github.com/AfrokingJasper/Voice-budget-tracker",
+    site: "https://fortune-budget-tracker.netlify.app/",
+    description:
+      "Modern Budget tracker to help you keep track of your income and expenses. Feeling too lazy to type? no worries just say what you want and our third party library would convert those words and perform the actions on your behalf.",
   },
 ];
 
