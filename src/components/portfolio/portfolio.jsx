@@ -5,6 +5,7 @@ import IMG2 from "../../assest/Bankist-1-picture.PNG";
 import IMG3 from "../../assest/forkify-picture.PNG";
 import IMG4 from "../../assest/expense-tracker-image.PNG";
 import IMG5 from "../../assest/voice-expense-tracker.PNG";
+import IMG6 from "../../assest/mamas-kitchen.PNG";
 
 const data = [
   {
@@ -51,6 +52,15 @@ const data = [
     site: "https://fortune-budget-tracker.netlify.app/",
     description:
       "Modern Budget tracker to help you keep track of your income and expenses. Feeling too lazy to type? no worries just say what you want and our third party library would convert those words and perform the actions on your behalf.",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "Mamas's Kitchen",
+    github: "https://github.com/AfrokingJasper/Mamas-Kitchen",
+    site: "https://mamas-kitchen-foods.netlify.app/",
+    description:
+      "A mini food order app that allows users to send orders from a list of available meals and sends the orders along with users details to the management for delivery.",
   },
 ];
 
