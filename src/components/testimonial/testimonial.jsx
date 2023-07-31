@@ -33,12 +33,6 @@ const data = [
     review:
       "You really did a good job on the website. Its so easy for people to transfer money to a diffrent users in different currencies and your algorithm converts it automatically without having to create a new account.",
   },
-  // {
-  //   avatar: AVTR4,
-  //   name: "Tina Snow",
-  //   review:
-  //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit debitis, iste libero voluptatibus facere nulla earum minima necessitatibus, tempore odit dolores alias id in! Autem nam nesciunt optio maxime molestiae!",
-  // },
 ];
 
 const Testimonial = (props) => {
