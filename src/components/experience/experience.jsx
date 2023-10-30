@@ -16,49 +16,54 @@ const Experience = (props) => {
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>TailwindCss</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>Git/Github</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>NextJs</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <GoVerified className="experience__details-icons" />
+              <div>
+                <h4>mongoDb</h4>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>FireBase</h4>
-                <small className="text-light">Begginer</small>
               </div>
             </article>
           </div>
@@ -69,36 +74,31 @@ const Experience = (props) => {
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
-                <h4> Team work</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Team work</h4>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>Problem solving</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4> Attention to detail</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4> Precision</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
                 <h4>Communication skills</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

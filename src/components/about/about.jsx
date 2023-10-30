@@ -37,14 +37,14 @@ function About(props) {
           </div>
 
           <p>
-            I am a highly motivated Frontend Developer with a strong foundation
-            in HTML, CSS, JavaScript and Frameworks like React and Tailwind CSS
-            and with proven ability to develop responsive and user friendly web
-            applications. I’m a quick learner with a passion for staying
-            up-to-date with the latest web technologies and trends. I am a
-            highly organised, dedicated, energetic and ambitious individual who
-            always strives to achieve the highest standard possible at any given
-            task.
+            I am a highly motivated Frontend Developer with a solid background
+            in HTML, CSS, Sass, JavaScript, Typescript and Frameworks like
+            React, NextJs, Angular and Tailwind CSS, with proven ability to
+            develop responsive and user-friendly web applications. I’m a quick
+            learner with a passion for staying up-to-date with the latest web
+            technologies and trends. I am a highly organised, dedicated,
+            energetic and ambitious individual who always strives to achieve the
+            highest standard possible at any given task.
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk
