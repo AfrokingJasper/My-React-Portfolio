@@ -1,12 +1,12 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assest/Bankist-2-picture.PNG";
-import IMG2 from "../../assest/Bankist-1-picture.PNG";
-import IMG3 from "../../assest/forkify-picture.PNG";
-import IMG4 from "../../assest/expense-tracker-image.PNG";
-import IMG5 from "../../assest/voice-expense-tracker.PNG";
-import IMG6 from "../../assest/mamas-kitchen.PNG";
-import IMG7 from "../../assest/foodEase.JPG";
+import IMG1 from "../../assets/Bankist-2-picture.PNG";
+import IMG2 from "../../assets/Bankist-1-picture.PNG";
+import IMG3 from "../../assets/forkify-picture.PNG";
+import IMG4 from "../../assets/expense-tracker-image.PNG";
+import IMG5 from "../../assets/voice-expense-tracker.PNG";
+import IMG6 from "../../assets/mamas-kitchen.PNG";
+import IMG7 from "../../assets/foodEase.JPG";
 
 const data = [
   {
