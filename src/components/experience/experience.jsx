@@ -33,6 +33,12 @@ const Experience = (props) => {
             <article className="experience__details">
               <GoVerified className="experience__details-icons" />
               <div>
+                <h4>TypeScript</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <GoVerified className="experience__details-icons" />
+              <div>
                 <h4>TailwindCss</h4>
               </div>
             </article>
