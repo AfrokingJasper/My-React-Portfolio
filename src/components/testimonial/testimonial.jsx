@@ -1,9 +1,9 @@
 import React from "react";
 import "./testimonial.css";
-import AVTR1 from "../../assest/profiles.avif";
-import AVTR2 from "../../assest/profiles.avif";
-import AVTR3 from "../../assest/profiles.avif";
-// import AVTR4 from "../../assest/profiles.avif";
+import AVTR1 from "../../assets/profiles.avif";
+import AVTR2 from "../../assets/profiles.avif";
+import AVTR3 from "../../assets/profiles.avif";
+// import AVTR4 from "../../assets/profiles.avif";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
